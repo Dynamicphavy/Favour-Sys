@@ -39,9 +39,8 @@ const projects: Projects[] = [
     description: "A web-based health information management system designed to streamline patient record management, organize medical information, and improve access to healthcare data through a centralized platform.",
     stack: "NextJS · Tailwindcss · Supabase",
     image: "/images/management.png",
-    imageBg: "bg-green-600",
     view: "",
-    code: "",
+    code: "https://github.com/Dynamicphavy/Health-Information-Management-System",
     layout: "image-left",
   },
 ]

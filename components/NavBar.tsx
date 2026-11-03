@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Link from 'next/link';
 
 const Navbar = () => {
   return (
@@ -17,6 +18,7 @@ const Navbar = () => {
               className="hover:text-[#E85E00] transition-colors"
             >{item}</a>
           ))}
+          <Link href="/vid" className="w-[7.5rem] h-[1.875rem] flex justify-center items-center border border-[#E85E00] text-[#E85E00] hover:bg-[#E85E00] hover:text-white transition-colors">VIDEO EDITING</Link>
         </div>
       </div>
     </nav>

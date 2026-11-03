@@ -29,7 +29,7 @@ const services: Service[] = [
   },
 ]
 
-const Services = ()=> {
+const Services = () => {
   return (
     <section id="services">
       <div className="flex justify-between border-b border-[rgba(13,25,38,0.1)] font-mono p-[1.5rem] text-[0.75rem]">

@@ -12,7 +12,7 @@ const Nav = () => {
         {/*Navigation links - hidden on small screens*/}
         <div className="flex items-center justify-center gap-[1.5rem] text-[0.813rem] font-mono">
           <Link href="/" className="hover:text-[#E85E00] transition-colors">SOFTWARE</Link>
-          <Link href="/vid">VIDEO EDITING</Link>
+          <Link href="/vid" className="hover:text-[#E85E00] transition-colors">VIDEO EDITING</Link> {/*FIXME: NO HOVER EFFECT*/}
         </div>
       </div>
     </nav>
